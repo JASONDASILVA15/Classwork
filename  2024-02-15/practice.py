@@ -9,4 +9,4 @@ z = input("whats your?")
 a = input("Please enter your name:")
 b = ","
 print("Hi",a+b,"I hope you are having an awesome day!")
->>>>>>> 33f86d4 (be yourself.)
+

@@ -14,7 +14,7 @@ numbers += [9]
 numbers += [10]
 
 numbers2 = []
-for b in range(1,1001):
+for b in range(1,100):
     numbers2.append(b)
 print(numbers2)
 print(numbers)
