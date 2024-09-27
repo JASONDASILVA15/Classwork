@@ -1,0 +1,30 @@
+div{
+    border:2px black solid;
+}
+#p1{
+    background-color: aqua;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+}
+#p2{
+    background-color: blueviolet;
+    padding:30px;
+
+}
+#p3{
+    background-color: brown;
+    padding:30px;
+
+}
+#p4{
+    background-color: darkgreen;
+    padding:30px;
+
+}
+#p5{
+    background-color: darksalmon;
+    padding:30px;
+
+}
