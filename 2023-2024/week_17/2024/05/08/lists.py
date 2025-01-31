@@ -15,7 +15,7 @@ print(lst)
 odd = []
 
 # using a for loop to add the odd numbers 1 threw 100 to the list odd
-for b in range(1, 101, 2):
+for b in range(1, 10, 2):
     odd += [b]
 
 # printing a list od
