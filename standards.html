@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>\
+<script>
+    document.addEventListener("DOMContentLoaded",(ev)=>{
+       console.log("pageloaded")
+
+    const save_button = document.getElementById("saveBtn");
+    console.log(save_button);
+    const text_output = document.getElementById("output");
+    console.log(text_output);
+    const set_button = document.getElementById("setBtn");
+    console.log(set_button);
+    save_button.addEventListener("click", (evt)=>{
+        console.log("User clicked on save button")
+    })
+    set_button.addEventListener("click", (evt)=>{
+        console.log("User clicked on set button")
+
+    })
+        const students =["diddy","space"]
+    for(let index=0;index<students.length;index++){
+        console.log("name of student is:"+students[index])
+    }
+for(let index=1;index<12;index=index+1){
+    console.log(index)
+}
+
+    })
+</script>
+</head>
+<body>
+<h1>Standard 6: Fundamentals of UX and UI Design</h1>
+<p>Students will be able to evaluate user needs, system requirements and design options to produce a high-quality user experience model.</p>
+<table border="2">
+  <tr>
+   <th>Exposed</th>
+    <th>Competent</th>
+    <th>Proficient</th>utput
+    <th>Advanced</th>
+  </tr>
+  <tr>
+    <td>Students can recall the basic idea of the standards.</td>
+    <td>Student can explain the standard correctly.</td>
+    <td>Student can apply or demonstrate the standard correctly.</td>
+    <td>Student can evaluate the strengths and weakness of the standard and conclude when to use it.</td>
+  </tr>
+</table>
+<p>6.a Research and identify the reasons for making software accessible.</p>
+<label for="6ae">exposed</label>
+<input type="radio" id="6ae" name="6a" value="exposed">
+<label for="6ac">competent</label>
+<input type="radio" id="6ac" name="6a" value="competent">
+<label for="6ap">proficient</label>
+<input type="radio" id="6ap" name="6a" value="proficient">
+<label for="6ae">advanced</label>
+<input type="radio" id="6aa" name="6a" value="advanced">
+<button type="button" id="saveBtn">save</button>
+<button type="button" id="setBtn" >set</button>
+<p id="output">text out put goes here</p>
+</body>
+</html>

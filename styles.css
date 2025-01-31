@@ -1,0 +1,11 @@
+fieldset{
+    background-color: aqua;
+}
+
+#trey {
+    background-color: darksalmon;
+}
+legend {
+    border: 3px solid black;
+    background-color: snow;
+}
