@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/links.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", (ev) => {
+    const summit = document.getElementById("submit")
+    const  car= document.getElementById("car")
+    const idk = document.getElementById("idk")
+      const set= document.getElementById("set")
+      const claim = document.getElementById("claim")
+      const evil = document.getElementById("evil")
+      const reasoning = document.getElementById("reasoning")
+      const burger = document.getElementById("burger")
+      const jason = document.getElementById("jason")
+
+
+      let messageButton;
+      messageButton.addEventListener("click", (event) => {
+        let output;
+        output.textContent = "Hi, "+summit.value+  " ready to play wanna start with x or o?"
+
+    })
+
+
+    })
+  </script>
+</head>
+<body>
+<button type="reset" id="submit">o</button>
+<button type="reset" id="car">x</button>
+<button type="reset" id="idk">o</button><br>
+<button type="reset" id="set">x</button>
+<button type="reset" id="claim">o</button>
+<button type="reset" id="evi">x</button><br>
+<button type="reset" id="reasoning">o</button>
+<button type="reset" id="burger">x</button>
+<button type="reset" id="jason">0</button>
+<label for="summit">choose who to go first x or o</label><input type="text" id="summit" name="summit">
+</body>
+</html>

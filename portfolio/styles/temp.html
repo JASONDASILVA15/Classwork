@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    document.addEventListener("DOMContentLoaded", (ev) => {
+      const Convert = document.getElementById("Convert")
+      const number = document.getElementById("number")
+      const output = document.getElementById("output")
+
+
+      Convert.addEventListener("click", (event) => {
+
+        let celsius= (Number.parseFloat(number.value)-32)*5/9
+
+        output.textContent = +celsius+  " when u convert"
+      })
+
+
+    })
+
+  </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Temperature Converter</h1>
+<label for="number">Please enter a temperature in Fahrenheit to convert </label><input type="text" id="number" name="number">
+<button id="Convert" type="submit">Convert</button>
+<p id="output">when u convert what do u get</p>
+</body>
+</html>
