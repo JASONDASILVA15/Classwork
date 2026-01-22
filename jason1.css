@@ -1,0 +1,18 @@
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+.jason1{
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+.jason2{
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
